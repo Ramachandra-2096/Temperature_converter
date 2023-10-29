@@ -1,0 +1,67 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Thermometer body background -->
+    <item android:top="20dp">
+        <shape android:shape="rectangle">
+            <size
+                android:height="200dp"
+                android:width="40dp" />
+            <solid android:color="#A9A9A9" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+
+    <!-- Bulb -->
+    <item android:top="200dp">
+        <shape android:shape="oval">
+            <size
+                android:height="40dp"
+                android:width="40dp" />
+            <solid android:color="#FF0000" />
+        </shape>
+    </item>
+
+    <!-- Tube -->
+    <item android:top="20dp">
+        <shape android:shape="rectangle">
+            <size
+                android:height="200dp"
+                android:width="20dp" />
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Marks for thermometer scale -->
+    <item android:top="40dp">
+        <shape android:shape="rectangle">
+            <size
+                android:height="4dp"
+                android:width="30dp" />
+            <solid android:color="#000000" /> <!-- Scale mark color -->
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <!-- Additional decorative details -->
+    <item android:top="70dp">
+        <shape android:shape="rectangle">
+            <size
+                android:height="2dp"
+                android:width="30dp" />
+            <solid android:color="#FF0000" /> <!-- Decorative mark color -->
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+    <item android:top="110dp">
+        <shape android:shape="rectangle">
+            <size
+                android:height="2dp"
+                android:width="30dp" />
+            <solid android:color="#FF0000" /> <!-- Decorative mark color -->
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <!-- More scale marks... -->
+
+</layer-list>

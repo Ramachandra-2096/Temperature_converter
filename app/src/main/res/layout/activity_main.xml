@@ -1,0 +1,164 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="287dp"
+        android:text="Celsius"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="372dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-124dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="162dp"
+        android:max="200"
+        android:min="-150"
+        android:progress="0"
+        android:progressDrawable="@drawable/bg_custom_seekbar"
+        android:rotation="270"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/seekHeading2"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="-298dp"
+        android:layout_marginEnd="174dp"
+        android:text="Kelvin"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="372dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="35dp"
+        android:max="474"
+        android:min="124"
+        android:progress="0"
+        android:progressDrawable="@drawable/bg_custom_seekbar"
+        android:rotation="270"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/seekHeading3"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="-246dp"
+        android:layout_marginEnd="4dp"
+        android:text="Fahrenheit"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="372dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="-95dp"
+        android:max="394"
+        android:min="-206"
+        android:progress="0"
+        android:progressDrawable="@drawable/bg_custom_seekbar"
+        android:rotation="270"
+        android:background="@color/white"
+       />
+
+    <TextView
+        android:id="@+id/seekValueTextView1"
+        android:layout_width="154dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/seekBar1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="228dp"
+        android:text="0"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/seekValueTextView"
+        android:layout_width="222dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/seekBar1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="27dp"
+        android:text="0"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/seekValueTextView2"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/seekBar1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="279dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="-17dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/seekHeading4"
+        android:layout_width="283dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/seekBar2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="53dp"
+        android:text="Temperature Converter"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+        <color name="seekbarBackground">#CCCCCC</color> <!-- Change this to your desired background color -->
+        <color name="seekbarThumb">#FF0000</color> <!-- Change this to your desired thumb color -->
+        <color name="seekbarProgress">#FF0000</color> <!-- Progress color of the SeekBar -->
+
+
+
+</resources>
